@@ -1,0 +1,15 @@
+.hero {
+  margin-bottom: 53px;
+}
+.hero__icon {
+  margin-bottom: 16px;
+}
+.hero__title {
+  margin-bottom: 20px;
+  @include font(24px, 600, 36px);
+}
+.hero__text {
+  margin-bottom: 33px;
+  @include font(14px, 400, 21px);
+  text-align: center;
+}

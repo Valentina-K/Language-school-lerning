@@ -1,0 +1,17 @@
+.footer {
+  padding-bottom: 48px;
+}
+.line {
+  padding-bottom: 26px;
+  border-top: 1px solid var(--line-color);
+}
+.footer__logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer__text {
+  @include font(11px, 500, 16px);
+  text-align: center;
+  color: var(--paragraf-color);
+}

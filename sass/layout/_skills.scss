@@ -1,0 +1,22 @@
+.scills {
+  margin-bottom: 50px;
+}
+.skills-list__title {
+  @include font(18px, 600, 80px);
+  color: var(--btn-bg-color);
+}
+.skills-list__item {
+  padding: 16px 0 44px 14px;
+  background-color: var(--section-bg-color);
+}
+.skills-list__item:not(:last-child) {
+  margin-bottom: 21px;
+}
+.skills-list__icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills-list__p {
+  margin-bottom: 26px;
+}

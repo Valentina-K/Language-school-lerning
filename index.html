@@ -5,11 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header container">
+      <a href="./index.html" class="logo link">
+        <span class="logo-black">Brit</span><span class="logo-grey">lex</span>
+      </a>
+      <button class="burger-btn">
+        <svg class="burger-icon" width="34" height="19">
+          <use href="./images/icons.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="hero container">
+        <svg width="299" height="299" class="hero__icon">
+          <use href="./images/icons.svg#icon-Learning-languages-bro-1"></use>
+        </svg>
+        <h1 class="hero__title title">Learn Any<br />Foreign Language</h1>
+        <p class="hero__text">
+          With our teachers who write a program for each student, you will be
+          able to make your first sketch after the first lesson.
+        </p>
+        <button class="button">Get started</button>
+      </section>
+      <section class="skills container">
+        <h2 class="section-title title">Skills</h2>
+        <ul class="skills-list list">
+          <li class="skills-list__item">
+            <svg class="skills-list__icon" width="213" height="213">
+              <use href="./images/icons.svg#icon-Shared-goals-bro-2"></use>
+            </svg>
+            <h3 class="skills-list__title">Speaking</h3>
+            <p class="skills-list__p paragraf">
+              Improve your English skills and confidence. Live classes and
+              interactive lessons online. 20% extra free for a limited time only
+            </p>
+            <p class="skills-list__p paragraf">
+              Learn English online and improve your skills through our
+              high-quality courses and resources – all designed for adult
+              language learners.
+            </p>
+            <button class="button btn-learn-more">Learn more</button>
+          </li>
+          <li class="skills-list__item">
+            <svg class="skills-list__icon" width="204" height="204">
+              <use href="./images/icons.svg#icon-Typewriter-bro-1"></use>
+            </svg>
+            <h3 class="skills-list__title">Writing</h3>
+            <p class="skills-list__p paragraf">
+              One of the most important and extensive areas of natural science,
+              the science that studies substances, also their composition
+            </p>
+            <button class="button btn-learn-more">Learn more</button>
+          </li>
+          <li class="skills-list__item">
+            <svg class="skills-list__icon" width="236" height="137">
+              <use href="./images/icons.svg#icon-House-bookshelves-bro-1"></use>
+            </svg>
+            <h3 class="skills-list__title">Reading</h3>
+            <p class="skills-list__p paragraf">
+              perception and response actions of the user resulting from the use
+              and or up coming use of the product, system or service
+            </p>
+            <button class="button btn-learn-more">Learn more</button>
+          </li>
+          <li class="skills-list__item">
+            <svg class="skills-list__icon" width="232" height="154">
+              <use href="./images/icons.svg#icon-Podcast-audience-bro-1"></use>
+            </svg>
+            <h3 class="skills-list__title">Listening</h3>
+            <p class="skills-list__p paragraf">
+              Here you can find activities to practise your listening skills.
+              Listening will help you to improve your understanding
+            </p>
+            <button class="button btn-learn-more">Learn more</button>
+          </li>
+        </ul>
+      </section>
+      <section class="about container">
+        <h2 class="section-title title">About Us</h2>
+        <svg width="283" height="283">
+          <use href="./images/icons.svg#icon-Business-competition-bro-1"></use>
+        </svg>
+        <p class="about__text paragraf">
+          The model offers a framework for discussing problems related to the
+          user's experience, as well as possible ways and means of solving them.
+          Application development begins at the top level (strategy), where the
+          future software product is described quite abstractly from the point
+          of view of the expectations of both users and the customer.
+        </p>
+        <ul class="about-list list">
+          <li class="about-list__item">
+            <h3 class="section-title about-list__title">800</h3>
+            <p class="paragraf about-list__text">Pupils</p>
+          </li>
+          <li class="about-list__item">
+            <h3 class="section-title about-list__title">18</h3>
+            <p class="paragraf about-list__text">Teachers</p>
+          </li>
+          <li class="about-list__item">
+            <h3 class="section-title about-list__title">6</h3>
+            <p class="paragraf about-list__text">Foreign languages</p>
+          </li>
+        </ul>
+      </section>
+      <section class="pricing container">
+        <h2 class="section-title title">Pricing</h2>
+        <ul class="pricing-list list">
+          <li class="pricing-list__item">
+            <img src="" alt="" class="pricing-list__img" />
+            <h3 class="pricing-list__title">Self-study online course</h3>
+            <p class="pricing-list__text paragraf">
+              Start learning English online in live classes with qualified EC
+              teachers and students from all over the world.
+            </p>
+            <button class="pricing-btn">
+              <span class="pricing-list__btn-l">£5.99</span
+              ><span class="pricing-list__btn-r"> per month</span>
+            </button>
+          </li>
+          <li class="pricing-list__item">
+            <img src="" alt="" class="pricing-list__img" />
+            <h3 class="pricing-list__title">Live online classes</h3>
+            <p class="pricing-list__text paragraf">
+              Interactive group classes with expert teachers. Free 7-day trial
+            </p>
+            <button class="pricing-btn">
+              <span class="pricing-list__btn-l">£12.99</span
+              ><span class="pricing-list__btn-r"> per month</span>
+            </button>
+          </li>
+          <li class="pricing-list__item">
+            <img src="" alt="" class="pricing-list__img" />
+            <h3 class="pricing-list__title">Personal Tuition</h3>
+            <p class="pricing-list__text paragraf">
+              Online one-to-one English tutoring – enjoy our first session for
+              only $1
+            </p>
+            <button class="pricing-btn">
+              <span class="pricing-list__btn-l">£20.99</span
+              ><span class="pricing-list__btn-r"> per month</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+      <section class="contacts container">
+        <h2 class="section-title title">Contact Us</h2>
+        <img src="" alt="" />
+        <p class="contact-text">
+          Discover your current English level by taking our free online English
+          test. Sign up to our newsletter for learning tips and free resource
+        </p>
+        <form class="contact-form">
+          <input class="input" type="text" placeholder="Enter Your E-mail" />
+          <button class="button">Subscribe</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="line"></div>
+      <a href="./index.html" class="footer__logo logo link"
+        ><span class="logo-black">Brit</span
+        ><span class="logo-grey">lex</span></a
+      >
+      <p class="footer__text">
+        Terms and Conditions • Privacy Policy • Cookie Policy
+      </p>
+    </footer>
+  </body>
 </html>

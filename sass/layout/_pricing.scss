@@ -1,0 +1,38 @@
+.pricing {
+  margin-bottom: 72px;
+}
+.pricing-list__item {
+  margin-bottom: 72px;
+}
+.pricing-list__img {
+  margin-bottom: 7px;
+}
+.pricing-list__title {
+  margin-bottom: 30px;
+  text-align: center;
+  @include font(18px, 600, 28px);
+  color: var(--btn-bg-color);
+}
+.pricing-list__text {
+  margin-bottom: 38px;
+  text-align: center;
+}
+.pricing-btn {
+  width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background-color: var(--pricing-btn-bg-color);
+}
+.pricing-list__btn-l {
+  @include font(18px, 400, 27px);
+  color: var(--btn-bg-color);
+}
+.pricing-list__btn-r {
+  @include font(14px, 400, 21px);
+  color: var(--pricing-color);
+}

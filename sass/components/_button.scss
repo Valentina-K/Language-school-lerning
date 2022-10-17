@@ -1,0 +1,12 @@
+.button {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 5px;
+  background-color: var(--btn-bg-color);
+  color: var(--bg-color);
+  @include font(16px, 500, 24px);
+}
+.btn-learn-more {
+  width: 178px;
+}
