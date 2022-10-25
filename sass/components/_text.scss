@@ -5,6 +5,9 @@
 .section-title {
   margin-bottom: 32px;
   @include font(24px, 600, 80px);
+  @media screen and(min-width:575px) {
+    margin-bottom: 13px;
+  }
 }
 .paragraf {
   @include font(13px, 400, 20px);

@@ -1,4 +1,5 @@
 .button {
+  display: block;
   width: 100%;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -6,7 +7,19 @@
   background-color: var(--btn-bg-color);
   color: var(--bg-color);
   @include font(16px, 500, 24px);
+  @media screen and(min-width:575px) and (max-width: 767px) {
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    @include font(18px, 500, 27px);
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 .btn-learn-more {
   width: 178px;
+  @include font(14px, 500, 21px);
+  @media screen and (min-width: 575px) {
+    width: 200px;
+  }
 }

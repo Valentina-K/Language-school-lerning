@@ -1,5 +1,8 @@
 .hero {
   margin-bottom: 53px;
+  @media screen and(min-width:575px) {
+    margin-bottom: 96px;
+  }
 }
 .hero__icon {
   margin-bottom: 16px;
@@ -7,9 +10,17 @@
 .hero__title {
   margin-bottom: 20px;
   @include font(24px, 600, 36px);
+  @media screen and (min-width: 575px) {
+    margin-bottom: 26px;
+    @include font(34px, 600, 45px);
+  }
 }
 .hero__text {
   margin-bottom: 33px;
   @include font(14px, 400, 21px);
   text-align: center;
+  @media screen and(min-width: 575px) {
+    margin-bottom: 37px;
+    @include font(16px, 400, 24px);
+  }
 }

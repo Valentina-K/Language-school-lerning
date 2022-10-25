@@ -63,11 +63,24 @@ body {
   padding-left: 14px;
   padding-right: 14px;
 }
+@media screen and (min-width: 575px) {
+  .container {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
 
 .logo {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
+}
+@media screen and (min-width: 575px) {
+  .logo {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
 }
 
 .logo-black {
@@ -79,6 +92,7 @@ body {
 }
 
 .button {
+  display: block;
   width: 100%;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -89,9 +103,29 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .button {
+    width: 305px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
 
 .btn-learn-more {
   width: 178px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+@media screen and (min-width: 575px) {
+  .btn-learn-more {
+    width: 200px;
+  }
 }
 
 .title {
@@ -105,6 +139,11 @@ body {
   font-weight: 600;
   line-height: 3.3333333333;
 }
+@media screen and (min-width: 575px) {
+  .section-title {
+    margin-bottom: 13px;
+  }
+}
 
 .paragraf {
   font-size: 13px;
@@ -115,18 +154,41 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
   margin-top: 36px;
   margin-bottom: 29px;
 }
 
 .burger-btn {
+  margin-left: auto;
   border: none;
   background-color: transparent;
 }
 
+@media screen and (min-width: 575px) {
+  .burger-icon-320 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 574px), (min-width: 768px) {
+  .burger-icon-575 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .burger-icon-768 {
+    display: none;
+  }
+}
+
 .hero {
   margin-bottom: 53px;
+}
+@media screen and (min-width: 575px) {
+  .hero {
+    margin-bottom: 96px;
+  }
 }
 
 .hero__icon {
@@ -139,6 +201,14 @@ body {
   font-weight: 600;
   line-height: 1.5;
 }
+@media screen and (min-width: 575px) {
+  .hero__title {
+    margin-bottom: 26px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.3235294118;
+  }
+}
 
 .hero__text {
   margin-bottom: 33px;
@@ -147,9 +217,30 @@ body {
   line-height: 1.5;
   text-align: center;
 }
+@media screen and (min-width: 575px) {
+  .hero__text {
+    margin-bottom: 37px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
 
 .scills {
   margin-bottom: 50px;
+}
+@media screen and (min-width: 575px) {
+  .scills {
+    margin-bottom: 84px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
 }
 
 .skills-list__title {
@@ -160,12 +251,22 @@ body {
 }
 
 .skills-list__item {
-  padding: 16px 0 44px 14px;
+  padding: 16px 14px 44px 14px;
   background-color: var(--section-bg-color);
+}
+@media screen and (min-width: 575px) {
+  .skills-list__item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
 }
 
 .skills-list__item:not(:last-child) {
   margin-bottom: 21px;
+}
+@media screen and (min-width: 575px) {
+  .skills-list__item:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 .skills-list__icon {
@@ -180,6 +281,13 @@ body {
 
 .about {
   margin-bottom: 84px;
+}
+
+@media screen and (min-width: 575px) {
+  .about-list {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .about__text {
@@ -283,6 +391,14 @@ body {
 .line {
   padding-bottom: 26px;
   border-top: 1px solid var(--line-color);
+}
+
+@media screen and (min-width: 575px) {
+  .footer-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 .footer__logo {

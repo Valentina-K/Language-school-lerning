@@ -1,6 +1,12 @@
 .about {
   margin-bottom: 84px;
 }
+.about-list {
+  @media screen and(min-width: 575px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 .about__text {
   margin-bottom: 26px;
   text-align: center;

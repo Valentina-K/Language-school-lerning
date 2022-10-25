@@ -24,7 +24,13 @@
         <span class="logo-black">Brit</span><span class="logo-grey">lex</span>
       </a>
       <button class="burger-btn">
-        <svg class="burger-icon" width="34" height="19">
+        <svg class="burger-icon-320" width="34" height="19">
+          <use href="./images/icons.svg#icon-burger-menu"></use>
+        </svg>
+        <svg class="burger-icon-575" width="42" height="28">
+          <use href="./images/icons.svg#icon-burger-menu"></use>
+        </svg>
+        <svg class="burger-icon-768" width="30" height="17">
           <use href="./images/icons.svg#icon-burger-menu"></use>
         </svg>
       </button>
@@ -45,7 +51,7 @@
         <h2 class="section-title title">Skills</h2>
         <ul class="skills-list list">
           <li class="skills-list__item">
-            <svg class="skills-list__icon" width="213" height="213">
+            <svg class="skills-list__icon" width="210" height="213">
               <use href="./images/icons.svg#icon-Shared-goals-bro-2"></use>
             </svg>
             <h3 class="skills-list__title">Speaking</h3>
@@ -72,7 +78,7 @@
             <button class="button btn-learn-more">Learn more</button>
           </li>
           <li class="skills-list__item">
-            <svg class="skills-list__icon" width="236" height="137">
+            <svg class="skills-list__icon" width="210" height="137">
               <use href="./images/icons.svg#icon-House-bookshelves-bro-1"></use>
             </svg>
             <h3 class="skills-list__title">Reading</h3>
@@ -83,7 +89,7 @@
             <button class="button btn-learn-more">Learn more</button>
           </li>
           <li class="skills-list__item">
-            <svg class="skills-list__icon" width="232" height="154">
+            <svg class="skills-list__icon" width="210" height="154">
               <use href="./images/icons.svg#icon-Podcast-audience-bro-1"></use>
             </svg>
             <h3 class="skills-list__title">Listening</h3>
@@ -177,13 +183,15 @@
     </main>
     <footer class="footer container">
       <div class="line"></div>
-      <a href="./index.html" class="footer__logo logo link"
-        ><span class="logo-black">Brit</span
-        ><span class="logo-grey">lex</span></a
-      >
-      <p class="footer__text">
-        Terms and Conditions • Privacy Policy • Cookie Policy
-      </p>
+      <div class="footer-bot">
+        <a href="./index.html" class="footer__logo logo link"
+          ><span class="logo-black">Brit</span
+          ><span class="logo-grey">lex</span></a
+        >
+        <p class="footer__text">
+          Terms and Conditions • Privacy Policy • Cookie Policy
+        </p>
+      </div>
     </footer>
   </body>
 </html>
